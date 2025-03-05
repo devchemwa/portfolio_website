@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Styling for header section - navbar */
+.header{
+    display: flex;
+    background-color: #1F2A44;
+}
+
+ul li{
+    text-decoration: none;
+    display: inline;
+}
+
+.nav-logo img{
+    float: left;
+    padding: 20px;
+    border-radius: 400px;
+    height: 30px;
+    width: 30px;
+}
+
+ul li a{
+    float: left;
+    text-decoration: none;
+    padding: 20px 20px;
+    font-size: 15px;
+    font-weight: 2em;
+    color: #FFFFFF;
+}
+.nav-tabs{
+    padding-left: 30px;
+}
+
+/* hover function for nav tabs */
+ul li a:hover{
+    color: #00C4CC;
+}
+
+/* Styling for hero section text */
+.hero{
+    display: flex;
+    margin: 0 auto;
+    background-color: rgba(1, 43, 91, 0.941);
+    height: 100vh;
+    width: 100vw;
+}
+
+section{
+    margin: 0 auto;
+    line-height: 50px;
+}
+
+.hero-logo{
+    margin-top: 100px;
+}
+
+#custom-link{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 2em;
+    text-decoration: none;
+}
+/* See my work hover effect */
+#custom-link:hover{
+    color: #00C4CC;
+}
+
+.hero-text{
+    margin-top: 100px;
+}
+
+/* projects section styling */
+.projects{
+    display: flex;
+    background-color: #1F2A44;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card-container{
+    display: inline;
+    margin-top: 100px;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* about section styling */
+.about{
+    display: flex;
+    margin: 0 auto;
+    width: 100vw;
+    height: 70vh;
+    color: #FFFFFF;
+    background-color: rgba(1, 43, 91, 0.941);
+}
+
+/* Contact Form Styling */
+.contact{
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    background-color: #1F2A44;
+}
+
+.contact-form{
+    margin-top: 100px;
+}
+
+form{
+    float: left;
+}
+
+form input{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 3em;
+}
+/* Footer Styling */
+.footer{
+    height: 60px;
+    width: 100vw;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 3em;
+}

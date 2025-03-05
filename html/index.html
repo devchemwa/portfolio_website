@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Chemwa</title>
+    <link rel="shortcut icon" href="/css/pic1.jpeg" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <div class="header">
+      <div class="nav-logo">
+        <a href="index.html"><img src="/css/pic1.jpeg" alt="logo" /></a>
+      </div>
+      <div class="nav-tabs">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Hero Section -->
+    <div class="hero" id="hero">
+      <section class="hero-logo">
+        <img
+          src="/css/pic1.jpeg"
+          alt="Andrew Chemwa"
+          style="height: 250px; width: 250px; border-radius: 200px"
+        />
+      </section>
+      <section class="hero-text">
+        <h2 style="color: #ffffff">
+          Hi I'm
+          <span style="font-style: italic; font-weight: 2em; color: #00c4cc"
+            >Andrew Chemwa</span
+          >
+          - Your very own Web Developer.
+        </h2>
+        <h3 style="color: #00c4cc">
+          Specializing in PHP, JavaScript, HTML and CSS
+        </h3>
+        <p><a href="#projects" id="custom-link">See My Work</a></p>
+      </section>
+    </div>
+    <!-- Projects Section -->
+    <div class="projects" id="projects">
+      <div class="projects-header"><section><h2 style="color: #00c4cc;">MY PROJECTS</h2></section></div>
+        <div class="card-container">
+          <!-- Bootstrap code -- card templates -->
+          <!-- First Project Card -->
+          <div class="card" style="width: 30rem; height: 40rem">
+            <img
+              src="/css/pic2.jpeg"
+              class="card-img-top"
+              alt="Honey e-commerce website"
+            />
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: medium">
+                Honey e-commerce website
+              </h5>
+              <p class="card-text">Your One-Stop Shop For ALL matters Honey!</p>
+              <a href="..." class="btn btn-primary">Buy Honey</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-container">
+          <!-- Second Project Card -->
+          <div class="card" style="width: 30rem; height: 40rem">
+            <img
+              src="/css/pic2.jpeg"
+              class="card-img-top"
+              alt="Library Management System"
+            />
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: medium">
+                Library Management System
+              </h5>
+              <p class="card-text">
+                Manage Libraries Efficiently With This System
+              </p>
+              <a href="..." class="btn btn-primary">Visit Library</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-container">
+          <!-- Third Project Card -->
+          <div class="card" style="width: 30rem; height: 40rem">
+            <img src="/css/pic2.jpeg" class="card-img-top" alt="unit project" />
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: medium">Unit Project</h5>
+              <p class="card-text">Personal project for a course unit</p>
+              <a href="..." class="btn btn-primary">Visit Site</a>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- About Section -->
+    <div class="about" id="about">
+      <div class="about-text" style="margin: 0 auto; margin-top: 20px">
+        <section>
+          <h2 style="color: #00c4cc; font-size: 25px; font-weight: 2em">
+            ABOUT
+          </h2>
+        </section>
+      </div>
+    </div>
+    <!-- Contact Section -->
+    <div class="contact" id="contact">
+      <div style="margin: 0 auto">
+        <section>
+          <h2 style="color: #00c4cc; font-size: 25px; font-weight: 2em">
+            CONTACT
+          </h2>
+        </section>
+      </div>
+      <div class="contact-form">
+        <form action="contact.php" method="post">
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            id="fname"
+            placeholder="First Name"
+          /><br /><br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+          /><br /><br />
+          <input
+            type="text"
+            name="message"
+            id="message"
+            placeholder="Message"
+          /><br /><br />
+          <input type="submit" />
+        </form>
+        <p style="color: #ffffff; font-size: 15px; font-weight: 3em">
+          Let's build something amazing together!
+        </p>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer" style="background-color: #008b8b; color: #ffffff">
+      <footer>
+        <p>
+          © <span id="curr-date">2025</span> <span style="color: #1f2a44">Andrew Chemwa.</span> All rights
+          reserved.
+        </p>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
