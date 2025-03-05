@@ -80,6 +80,10 @@ section{
     width: 100vw;
 }
 
+.projects-header{
+    background-color: rgba(1, 186, 199, 0.74);
+}
+
 .card-container{
     display: inline;
     margin-top: 100px;
@@ -107,10 +111,7 @@ section{
 
 .contact-form{
     margin-top: 100px;
-}
 
-form{
-    float: left;
 }
 
 form input{
